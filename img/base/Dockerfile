@@ -3,14 +3,14 @@
 # Base image for devcontainer-features
 # Pre-installs commonly used tools to speed up devcontainer build times
 #
-# Build: docker build -t ghcr.io/jmlow/devcontainer-features/base:latest .
-# Test:  docker run --rm -it ghcr.io/jmlow/devcontainer-features/base:latest
+# Build: docker build -t ghcr.io/terminalrasa/devcontainer-features/base:latest .
+# Test:  docker run --rm -it ghcr.io/terminalrasa/devcontainer-features/base:latest
 #
 
 ARG BASE_IMAGE=mcr.microsoft.com/devcontainers/base:ubuntu
 FROM ${BASE_IMAGE}
 
-LABEL org.opencontainers.image.source="https://github.com/jmlow/devcontainer-features"
+LABEL org.opencontainers.image.source="https://github.com/TerminalRasa/devcontainer-features"
 LABEL org.opencontainers.image.description="Base image with pre-installed tools for faster devcontainer builds"
 
 # Prevent interactive prompts during package installation

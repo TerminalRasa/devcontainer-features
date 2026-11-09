@@ -5,13 +5,13 @@ on:
 jobs:
   deploy:
     if: ${{ github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     permissions:
       contents: write
       pull-requests: write
       packages: write
     steps:
-      - uses: actions/checkout@v5
+      - uses: useblacksmith/checkout@v1
 
       - name: 'Publish Features'
         uses: devcontainers/action@v1
