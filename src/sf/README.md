@@ -7,7 +7,7 @@ A sf CLI feature
 
 ```json
 "features": {
-    "ghcr.io/terminalrasa/devcontainer-features/sf:0": {}
+    "ghcr.io/TerminalRasa/devcontainer-features/sf:0": {}
 }
 ```
 

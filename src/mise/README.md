@@ -7,7 +7,7 @@ A mise.jdx.dev feature
 
 ```json
 "features": {
-    "ghcr.io/terminalrasa/devcontainer-features/mise:0": {}
+    "ghcr.io/TerminalRasa/devcontainer-features/mise:0": {}
 }
 ```
 
