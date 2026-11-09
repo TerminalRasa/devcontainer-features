@@ -7,7 +7,7 @@ A heroku CLI feature
 
 ```json
 "features": {
-    "ghcr.io/terminalrasa/devcontainer-features/heroku:0": {}
+    "ghcr.io/TerminalRasa/devcontainer-features/heroku:0": {}
 }
 ```
 
