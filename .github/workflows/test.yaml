@@ -16,7 +16,7 @@ jobs:
           - heroku
           - mise
         baseImage:
-          - ghcr.io/jmlow/devcontainer-features/base:latest
+          - ghcr.io/terminalrasa/devcontainer-features/base:latest
     steps:
       - uses: useblacksmith/checkout@v1
 

@@ -14,9 +14,9 @@ The `heroku` feature installs [heroku](https://devcenter.heroku.com/articles/her
 
 ```jsonc
 {
-	"image": "ghcr.io/TerminalRasa/devcontainer-features/base:latest",
+	"image": "ghcr.io/terminalrasa/devcontainer-features/base:latest",
 	"features": {
-		"ghcr.io/TerminalRasa/devcontainer-features/heroku:0": {}
+		"ghcr.io/terminalrasa/devcontainer-features/heroku:0": {}
 	}
 }
 ```
@@ -27,9 +27,9 @@ The `mise` feature installs [mise-en-place](https://mise.jdx.dev/), a polyglot v
 
 ```jsonc
 {
-	"image": "ghcr.io/TerminalRasa/devcontainer-features/base:latest",
+	"image": "ghcr.io/terminalrasa/devcontainer-features/base:latest",
 	"features": {
-		"ghcr.io/TerminalRasa/devcontainer-features/mise:0": {
+		"ghcr.io/terminalrasa/devcontainer-features/mise:0": {
 			"debug": false,
 			"quiet": true,
 			"version": ""
@@ -44,9 +44,9 @@ The `sf` feature installs [sf](https://developer.salesforce.com/tools/salesforce
 
 ```jsonc
 {
-	"image": "ghcr.io/TerminalRasa/devcontainer-features/base:latest",
+	"image": "ghcr.io/terminalrasa/devcontainer-features/base:latest",
 	"features": {
-		"ghcr.io/TerminalRasa/devcontainer-features/sf:0": {
+		"ghcr.io/terminalrasa/devcontainer-features/sf:0": {
 				"sf_dir": "~/cli/sf"
 		},
 	},
@@ -133,12 +133,12 @@ _Allow GitHub Actions to create and approve pull requests_ should be enabled in 
 By default, each Feature will be prefixed with the `<owner/<repo>` namespace. For example, the 3 Features in this repository can be referenced in a `devcontainer.json` with:
 
 ```
-ghcr.io/TerminalRasa/devcontainer-features/heroku:0
-ghcr.io/TerminalRasa/devcontainer-features/mise:0
-ghcr.io/TerminalRasa/devcontainer-features/sf:0
+ghcr.io/terminalrasa/devcontainer-features/heroku:0
+ghcr.io/terminalrasa/devcontainer-features/mise:0
+ghcr.io/terminalrasa/devcontainer-features/sf:0
 ```
 
-The provided GitHub Action will also publish a third "metadata" package with just the namespace, eg: `ghcr.io/TerminalRasa/devcontainer-features`. This contains information useful for tools aiding in Feature discovery.
+The provided GitHub Action will also publish a third "metadata" package with just the namespace, eg: `ghcr.io/terminalrasa/devcontainer-features`. This contains information useful for tools aiding in Feature discovery.
 
 '`TerminalRasa/devcontainer-features`' is known as the feature collection namespace.
 

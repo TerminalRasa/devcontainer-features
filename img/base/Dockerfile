@@ -3,8 +3,8 @@
 # Base image for devcontainer-features
 # Pre-installs commonly used tools to speed up devcontainer build times
 #
-# Build: docker build -t ghcr.io/TerminalRasa/devcontainer-features/base:latest .
-# Test:  docker run --rm -it ghcr.io/TerminalRasa/devcontainer-features/base:latest
+# Build: docker build -t ghcr.io/terminalrasa/devcontainer-features/base:latest .
+# Test:  docker run --rm -it ghcr.io/terminalrasa/devcontainer-features/base:latest
 #
 
 ARG BASE_IMAGE=mcr.microsoft.com/devcontainers/base:ubuntu
