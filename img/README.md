@@ -16,7 +16,7 @@ A general-purpose base image with pre-installed tools including:
 
 ```json
 {
-  "image": "ghcr.io/jmlow/devcontainer-features/base:latest",
+  "image": "ghcr.io/TerminalRasa/devcontainer-features/base:latest",
   "features": {
     // Add only the features NOT included in the base image
   }

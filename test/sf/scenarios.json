@@ -1,13 +1,13 @@
 {
 	"default": {
-		"image": "ghcr.io/jmlow/devcontainer-features/base:latest",
+		"image": "ghcr.io/TerminalRasa/devcontainer-features/base:latest",
 		"features": {
 			"sf": {}
 		},
 		"remoteUser": "vscode"
 	},
 	"directory": {
-		"image": "ghcr.io/jmlow/devcontainer-features/base:latest",
+		"image": "ghcr.io/TerminalRasa/devcontainer-features/base:latest",
 		"features": {
 			"sf": {
 				"sf_dir": "~/cli/sf"
